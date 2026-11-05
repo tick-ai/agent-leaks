@@ -1,0 +1,22 @@
+{
+  "name": "agent-leaks",
+  "version": "0.1.0",
+  "description": "Find the secrets your AI agent saw, in the Claude Code and Codex session logs on your machine.",
+  "type": "module",
+  "bin": {
+    "agent-leaks": "agent-leaks.mjs"
+  },
+  "files": ["agent-leaks.mjs", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["ai-agents", "claude-code", "codex", "secrets", "security", "session-log"],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tick-ai/agent-leaks.git"
+  }
+}
